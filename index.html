@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Custom styles for spacing or specific overrides */
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter font as per previous requests, if not available, it defaults to sans-serif */
+        }
+        .card-img-top {
+            height: 200px; /* Fixed height for blog post images */
+            object-fit: cover; /* Ensures images cover the area without distortion */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Aditi's Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Blog Posts -->
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Latest Blog Posts</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Blog Post Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/87CEEB/FFFFFF?text=Tech+Trends" class="card-img-top" alt="Tech Trends">
+                    <div class="card-body">
+                        <h5 class="card-title">The Future of AI in Web Development</h5>
+                        <p class="card-text">Explore how artificial intelligence is shaping the landscape of modern web development, from code generation to personalized user experiences.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: July 25, 2025</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/FFD700/000000?text=Coding+Tips" class="card-img-top" alt="Coding Tips">
+                    <div class="card-body">
+                        <h5 class="card-title">5 Essential Tips for Clean Code</h5>
+                        <p class="card-text">Writing clean, maintainable code is crucial for any developer. Learn five practical tips to improve your coding style today.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: July 20, 2025</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/98FB98/000000?text=Design+UX" class="card-img-top" alt="Design UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Mastering Responsive Design with Bootstrap 5</h5>
+                        <p class="card-text">Dive deep into Bootstrap 5's utility-first classes and grid system to create stunning, responsive web layouts.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: July 15, 2025</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/DDA0DD/000000?text=Backend+Dev" class="card-img-top" alt="Backend Dev">
+                    <div class="card-body">
+                        <h5 class="card-title">Node.js vs. Python: Choosing Your Backend</h5>
+                        <p class="card-text">A comparison of two popular backend technologies to help you decide which one is best suited for your next project.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: July 10, 2025</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post Card 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/ADD8E6/000000?text=Cloud+Computing" class="card-img-top" alt="Cloud Computing">
+                    <div class="card-body">
+                        <h5 class="card-title">Getting Started with Docker and Kubernetes</h5>
+                        <p class="card-text">An introductory guide to containerization and orchestration for modern application deployment.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: July 05, 2025</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post Card 6 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/600x400/F08080/000000?text=Data+Science" class="card-img-top" alt="Data Science">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science Fundamentals for Developers</h5>
+                        <p class="card-text">Understanding the basics of data analysis and visualization can greatly enhance your development projects.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Published: June 30, 2025</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Aditi's Blog. All rights reserved.</p>
+            <div class="mt-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN (Bundle with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
