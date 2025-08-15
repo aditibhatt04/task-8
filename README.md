@@ -36,8 +36,8 @@ This project demonstrates a basic, responsive blog page layout built using **HTM
 - Clicking "Read More" buttons or social icons will not lead anywhere as they are placeholder links (`#`).
 
 ## Preview
-_![Website Preview](./ss1.jpg)
-_![Website Preview](./ss2.jpg)
+_![Website Preview](./ss1.jpeg)
+_![Website Preview](./ss2.jpeg)
 
 ## Author
 - ADITI BHATT - Frontend Developer
